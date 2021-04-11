@@ -1,11 +1,8 @@
 import React from 'react'
+import PrimaryLayout from './components/PrimaryLayout/PrimaryLayout'
 
 function App() {
-  return (
-    <div>
-      <header>Learn React</header>
-    </div>
-  )
+  return <PrimaryLayout />
 }
 
 export default App
